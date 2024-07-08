@@ -6,16 +6,6 @@ Reward Streams is a powerful and flexible implementation of the billion-dollar a
 
 ## Contracts
 
-```
-.
-├── interfaces
-│   ├── IBalanceTracker.sol
-│   └── IRewardStreams.sol
-├── BaseRewardStreams.sol
-├── StakingRewardStreams.sol
-└── TrackingRewardStreams.sol
-```
-
 ## The billion-dollar algorithm
 
 The billion-dollar algorithm is a method for efficient incremental calculation of proportional reward distribution. It works by dividing the total reward pool proportionally among participants based on their stake. It does this incrementally, updating the distribution as new stakes are added or existing ones are removed. This allows the algorithm to handle large numbers of participants and high transaction volumes efficiently.
